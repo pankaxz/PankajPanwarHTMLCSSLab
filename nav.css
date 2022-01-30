@@ -1,0 +1,60 @@
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: red;
+  text-align: right;
+  padding: 20px 100px;
+}
+
+body {
+  margin: 0%;
+}
+
+#navigation {
+  background-color: rgb(161, 155, 155);
+  height : 40px;
+}
+
+ul{
+  margin: 0;
+  height:inherit;
+}
+
+.menu a{
+  color: white;
+}
+
+.dropdown-content a{
+  display:block;
+  color: blue;
+  padding :10px;
+}
+
+.dropdown-content{
+  display: none;
+  background-color: gainsboro;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+}
+
+.menu li:hover .dropdown-content{
+  display:block;
+}
+
+.menu li{
+  height: inherit;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.menu li:hover{
+  background-color: black;
+}
